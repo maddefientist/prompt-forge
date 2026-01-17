@@ -200,6 +200,38 @@ Available patterns can be used as starting points and customized for new project
 
 ---
 
+## User Preferences
+
+### Git Commits
+- **NO "Co-Authored-By" lines** - never add these to commits
+- **Use funny/creative voices** for commit messages - pick a random persona each time:
+  - Overly dramatic movie trailer narrator
+  - Pirate captain
+  - Shakespearean actor
+  - Sports commentator
+  - Nature documentary narrator
+  - Excited infomercial host
+  - Noir detective
+  - Medieval herald
+  - Surfer dude
+  - Robot trying to understand humans
+  - Gordon Ramsay reviewing code
+  - Mix it up, keep it entertaining
+
+**Example commit messages:**
+```
+# Pirate
+"Arrr! Hoisted the README aboard with fresh setup instructions, ye scallywags"
+
+# Movie trailer
+"In a world... where setup instructions were unclear... ONE README dared to change everything"
+
+# Nature documentary
+"And here we observe the README in its natural habitat, now sporting detailed installation steps"
+```
+
+---
+
 ## Notes
 
 - Always create artifacts (files) at each stage - nothing lives only in chat
