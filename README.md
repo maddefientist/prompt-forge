@@ -15,30 +15,56 @@ CAPTURE → STRUCTURE → VALIDATE → EXECUTE → REVIEW
 
 ## Quick Start
 
-### One-time setup (per machine)
+### Option 1: Full install (recommended)
 
 ```bash
 # Clone the repo
 git clone https://github.com/maddefientist/prompt-forge.git
 
-# Install the global Claude instructions
+# Run setup script
+./prompt-forge/setup.sh
+```
+
+### Option 2: One-liner (quick setup on any machine)
+
+```bash
+mkdir -p ~/.claude && curl -o ~/.claude/CLAUDE.md https://raw.githubusercontent.com/maddefientist/prompt-forge/main/CLAUDE.md
+```
+
+### Option 3: Manual install
+
+```bash
+git clone https://github.com/maddefientist/prompt-forge.git
 cp prompt-forge/CLAUDE.md ~/.claude/CLAUDE.md
 ```
 
-### Usage
+---
+
+## Usage
+
+Once installed, start any Claude Code session and use natural language:
 
 ```bash
 # Start any project, anywhere
 cd your-project-directory
 claude "new project: describe your idea here"
-
-# Claude will guide you through:
-# 1. Capturing your idea
-# 2. Structuring requirements
-# 3. Validating the plan
-# 4. Executing in phases
-# 5. Reviewing each phase
 ```
+
+**Example prompts:**
+
+```bash
+claude "new project: a bookmark manager with tags and search"
+claude "new project: self-hosted expense tracker for my family"
+claude "new project: CLI tool to sync dotfiles across machines"
+```
+
+**Claude will automatically guide you through:**
+
+1. **Capture** - Asks clarifying questions, documents your idea
+2. **Structure** - Converts to formal requirements with architecture
+3. **Validate** - Security review, feasibility check, completeness audit
+4. **Execute** - Builds in phases with checkpoints
+5. **Review** - Verifies each phase before proceeding
 
 ## Commands
 
