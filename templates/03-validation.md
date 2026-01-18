@@ -8,6 +8,52 @@
 
 ---
 
+## Quality Gate (Must Pass First)
+
+_These are non-negotiable. If any fail, stop and fix before proceeding to detailed validation._
+
+### Purpose
+- [ ] Problem is real and specific (not "would be cool if")
+- [ ] Target user is defined (not "everyone")
+- [ ] Success is measurable (not "make it better")
+- [ ] Solves one core problem well (not many problems poorly)
+
+**Findings:**
+
+
+### Scope
+- [ ] MVP features listed (max 3-5 core features)
+- [ ] "Not doing" list exists (explicit boundaries)
+- [ ] No feature creep from original ask
+- [ ] Each feature ties directly to the core problem
+
+**Findings:**
+
+
+### Design Intent
+- [ ] Custom color palette chosen (not Tailwind/framework defaults)
+- [ ] Typography selected (not Inter, not Geist, not system defaults)
+- [ ] Visual style matches product purpose/tone
+- [ ] Not generic "AI-generated app" aesthetic
+
+**Findings:**
+
+
+### Deployment Reality
+- [ ] Target environment specified
+- [ ] CI/CD path defined or understood
+- [ ] Domain/hosting decided
+- [ ] Rollback/recovery plan exists
+
+**Findings:**
+
+
+**Quality Gate Status:** PASS / FAIL
+
+_If FAIL: Address issues before continuing to detailed validation below._
+
+---
+
 ## Validation Summary
 
 | Category | Status | Blockers | Concerns |
